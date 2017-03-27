@@ -8,7 +8,7 @@ int main()
 {
 	short unsigned int choice;
 	cout << "0) Convert examples to kilo-examples.\
-	\n1) Convert miles into kilometers.
+	\n1) Convert miles into kilometers."
 	\n2) \
 	\n3) \
 	\n4) \
