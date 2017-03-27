@@ -1,5 +1,5 @@
 #include "headers/bfrick.h"
-#include "LMendoza.h"
+#include "headers/lmendoza.h"
 #include <iostream>
 
 using namespace std;
