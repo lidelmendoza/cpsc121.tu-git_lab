@@ -68,7 +68,8 @@ int main()
 			break;
 		case 17:  // SChacon
 			break;
-		case 18:  // TLopez
+		case 18: #include <tlopez.h>
+			tlopez();
 			break;
 		case 19:  // MAminy
 			break;
