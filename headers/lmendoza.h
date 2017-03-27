@@ -3,7 +3,7 @@
 // there are 1.6 kilometers in a mile
 #include <iostream>
 using namespace std;
-#include "LMendoza.h"
+#include "lmendoza.h"
 
 void miles_to_kilomtrs(){
   int choice;
