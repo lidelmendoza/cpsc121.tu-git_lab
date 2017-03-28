@@ -7,6 +7,7 @@
 #include "headers/nlui.h"
 #include "headers/yli.h"
 #include <iostream>
+#include "headers/tlopez.h"
 
 using namespace std;
 
@@ -34,7 +35,7 @@ int main()
 	\n15) \
 	\n16) \
 	\n17) \
-	\n18) \
+	\n18) Convert MegaFonzies to KiloBravos\
 	\n19) \
 	\n";
 	cout << "Please pick an option: ";
@@ -86,6 +87,7 @@ int main()
 		case 17:  // SChacon
 			break;
 		case 18:  // TLopez
+			mF_to_kB();
 			break;
 		case 19:  // MAminy
 			break;
