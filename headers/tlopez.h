@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int mF_to_kB() {
+void mF_to_kB() {
 	int megaFonzies;
 	double kiloBravos;
 	cout << "How many MegaFonzies are you currently having? ";
@@ -10,6 +10,4 @@ int mF_to_kB() {
 	kiloBravos = megaFonzies*325;
 	cout << "\nThat means that you are currently having "
 	<< kiloBravos << " KiloBravos!\n";
-	cin.get();
-	return 0;
 }
