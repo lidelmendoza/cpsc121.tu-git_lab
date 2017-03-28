@@ -1,4 +1,8 @@
-int tlopez() {
+#include <iostream>
+
+using namespace std;
+
+int mF_to_kB() {
 	int megaFonzies;
 	double kiloBravos;
 	cout << "How many MegaFonzies are you currently having? ";
