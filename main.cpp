@@ -1,11 +1,12 @@
 #include "headers/alee.h"
-#include "headers/Gsrinivasan.h"
 #include "headers/bfrick.h"
+#include "headers/lpham.h"
 #include "headers/lschauer.h"
 #include "headers/isaghatchi.h"
 #include "headers/cnavarro.h"
 #include "headers/nlui.h"
 #include "headers/yli.h"
+#include "headers/Gsrinivasan.h"
 #include <iostream>
 #include "headers/tlopez.h"
 
@@ -28,7 +29,7 @@ int main()
 	\n8) \
 	\n9) Convert jiffys to microcenturies.\
 	\n10) \
-	\n11) \
+	\n11) Convert Weeks into Beard-inches. \
 	\n12) Convert pounds to poods. \
 	\n13) \
 	\n14) \
@@ -72,6 +73,7 @@ int main()
 		case 10:  // THasani
 			break;
 		case 11:  // LPham
+			weeks_to_beard_inches();
 			break;
 		case 12:  // NLui
 			pounds_to_poods();
