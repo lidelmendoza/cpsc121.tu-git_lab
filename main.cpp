@@ -1,4 +1,5 @@
 #include "headers/bfrick.h"
+#include "headers/lmendoza.h"
 #include <iostream>
 
 using namespace std;
@@ -7,7 +8,7 @@ int main()
 {
 	short unsigned int choice;
 	cout << "0) Convert examples to kilo-examples.\
-	\n1) \
+	\n1) Convert miles into kilometers. \
 	\n2) \
 	\n3) \
 	\n4) \
@@ -34,7 +35,7 @@ int main()
 		case 0:  // BFrick
 			examples_to_kiloxamples();
 			break;
-		case 1:  // LMendoza
+		case 1:  miles_to_kilomtrs();// LMendoza
 			break;
 		case 2:  // CNavarro
 			break;
